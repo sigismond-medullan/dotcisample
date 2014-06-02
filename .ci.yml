@@ -1,0 +1,5 @@
+environment:
+   image: centos
+   services:
+      - google/mysql
+      - google/redis
