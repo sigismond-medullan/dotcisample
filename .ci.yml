@@ -1,7 +1,7 @@
 environment:
    image: centos
    language: ruby
-     language_versions:
+     language_versions
           - 1.8.7
           - 1.9.3
    services:
