@@ -1,5 +1,4 @@
 environment:
-   image: ubuntu:14.04
    language: ruby
    services:
       - google/mysql
