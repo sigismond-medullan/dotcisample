@@ -1,6 +1,6 @@
 environment:
    image: ubuntu:14.04
-   language: perl
+   language: java
    services:
       - google/mysql
 
