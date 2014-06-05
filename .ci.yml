@@ -3,7 +3,6 @@ environment:
    language: java
    services:
       - google/mysql
-      - google/redis
 
 build:
     run: echo hello world
