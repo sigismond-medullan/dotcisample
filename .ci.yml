@@ -1,6 +1,9 @@
 environment:
-   image: centos
-   language: ruby
+   image: ubuntu:14.04
+   language: java
    services:
       - google/mysql
       - google/redis
+
+build:
+    run: echo hello world
