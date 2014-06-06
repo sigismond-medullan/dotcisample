@@ -1,9 +1,10 @@
 environment:
-   language: unknown
+   language: java
+   services:
+      - google/mysql
+
 
 
 build:
-  run: 
-    - echo "Blah"
-    
+    run: echo hello world
 
