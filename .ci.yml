@@ -1,10 +1,10 @@
 environment:
-   language: java
+   language: javascript
    services:
       - google/mysql
 
 
 
 build:
-    run: echo hello world
+    run:  pybot --variable BROWSER:phantomjs robot/test/simple_test_suite.robot
 
